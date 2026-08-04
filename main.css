@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
-    grid: area box_ 1px;;
+    grid-template-areas: 
+    "navbar navbar navbar navbar";
     gap: 25px;
     max-width: 1200px;
     margin: 50px;
