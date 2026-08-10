@@ -1,33 +1,84 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: auto;
     grid-template-areas: 
-    "navbar navbar navbar navbar";
-    gap: 25px;
-    max-width: 1200px;
-    margin: 50px;
-    padding-left: 15px;
-    position:relative;
-    display: block;
-    border-radius: 20px;
-    text-decoration: none;
+    "navbar navbar navbar navbar"
+    "heading heading heading heading"
+    "definition causes effects help"
+    "footer footer footer footer";
     }
-.box_1 img {
-    width: 90%;
-    height: 100%;
-}
-.box_1:hover img {
-    transform: scale(1.08);
-}
-.overlay {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-}
+
+    .navbar{
+        grid-area: navbar;
+        background-color: rgb(7, 97, 41);
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .navbar ul {
+        list-style-type: none;
+    }
+
+    .navbar li{
+        display: inline;
+        padding: 20px;
+        background-color: goldenrod;
+    }
+
+    /* .navbar a{ */
+
+    /* } */
+
+
+    .heading{
+        grid-area: heading;
+        background-color: darkseagreen;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+
+
+
+    .definition{
+        grid-area: definition;
+        background-color: antiquewhite;
+        text-align: center;
+    }
+
+
+
+    .causes{
+        grid-area: causes;
+        background-color: azure;
+        text-align: center;
+    }
+
+
+    .effects{
+        grid-area: effects;
+        background-color: beige;
+        text-align: center;
+    }
+
+
+    .help{
+        grid-area: help;
+        background-color: bisque;
+        text-align: center;
+    }
+
+
+    .footer{
+        grid-area: footer;
+        background-color: ;
+        text-align: center;
+        font-size: smaller;
+    }
+
+
 
     
 
