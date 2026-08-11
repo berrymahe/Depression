@@ -6,6 +6,7 @@
     grid-template-areas: 
     "navbar navbar navbar navbar"
     "heading heading heading heading"
+    "image_1 image_2 image_3 image_4"
     "definition causes effects help"
     "footer footer footer footer";
     }
@@ -15,6 +16,7 @@
         background-color: rgb(7, 97, 41);
         text-align: center;
         font-size: smaller;
+        padding: 20px;
     }
 
     .navbar ul {
@@ -27,10 +29,10 @@
         background-color: goldenrod;
     }
 
-    /* .navbar a{ */
+    /*.navbar a {
 
-    /* } */
 
+    }*/
 
     .heading{
         grid-area: heading;
@@ -39,6 +41,11 @@
         font-size: xx-large;
     }
 
+
+    .image_1{
+        grid-area: image_1;
+        background-color: #Fefd54;
+    }
 
 
 
@@ -50,11 +57,29 @@
 
 
 
+
+
+
+    .image_2{
+        grid-area: image_2;
+        background-color: aqua;
+    }
+
+
+
+
+
     .causes{
         grid-area: causes;
         background-color: azure;
         text-align: center;
     }
+
+    .image_3{
+        grid-area: image_3;
+        background-color: #Fefd54;
+    }
+
 
 
     .effects{
@@ -62,6 +87,17 @@
         background-color: beige;
         text-align: center;
     }
+
+
+
+
+    .image_4{
+        grid-area: image_4;
+        background-color: aquamarine;
+    }
+
+
+
 
 
     .help{
@@ -73,7 +109,7 @@
 
     .footer{
         grid-area: footer;
-        background-color: ;
+        background-color: #Fefd54 ;
         text-align: center;
         font-size: smaller;
     }
