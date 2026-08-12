@@ -36,23 +36,23 @@
 
     .heading{
         grid-area: heading;
-        background-color: darkseagreen;
         text-align: center;
         font-size: xx-large;
+        background-color: darkseagreen;
     }
 
 
     .image_1{
         grid-area: image_1;
-        background-color: #Fefd54;
-    }
+        background-color: darkseagreen;
+       }
 
 
 
     .definition{
         grid-area: definition;
-        background-color: antiquewhite;
-        text-align: center;
+         text-align: left;
+         background-color: darkseagreen;
     }
 
 
@@ -62,30 +62,28 @@
 
     .image_2{
         grid-area: image_2;
-        background-color: aqua;
+        background-color: darkseagreen;
     }
-
-
 
 
 
     .causes{
         grid-area: causes;
-        background-color: azure;
-        text-align: center;
+        text-align: left;
+        background-color: darkseagreen;
     }
 
     .image_3{
         grid-area: image_3;
-        background-color: #Fefd54;
+        background-color: darkseagreen;
     }
 
 
 
     .effects{
         grid-area: effects;
-        background-color: beige;
-        text-align: center;
+        text-align: left;
+        background-color: darkseagreen;
     }
 
 
@@ -93,7 +91,7 @@
 
     .image_4{
         grid-area: image_4;
-        background-color: aquamarine;
+        background-color: darkseagreen;
     }
 
 
@@ -102,19 +100,22 @@
 
     .help{
         grid-area: help;
-        background-color: bisque;
-        text-align: center;
+        text-align: left;
+        background-color: darkseagreen;
     }
 
 
     .footer{
         grid-area: footer;
-        background-color: #Fefd54 ;
+        background-color: rgb(7, 97, 41);
         text-align: center;
         font-size: smaller;
     }
 
-
-
+    img{
+        width: 95%;
+        height: auto;
+    }
+    
     
 
