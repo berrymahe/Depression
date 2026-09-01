@@ -1,22 +1,24 @@
 .container {
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "navbar navbar navbar navbar"
-    "heading heading heading heading"
-    "image_1 image_2 image_3 image_4"
-    "definition causes effects help"
-    "footer footer footer footer";
+    "navbar navbar"
+    "heading heading"
+    "image_1 definition "
+    "image_2 causes"
+    "image_3 effects"
+    "image_4 help"
+    "footer footer";
+    background-color: beige;
     }
 
     .navbar{
         grid-area: navbar;
-        background-color: rgb(7, 97, 41);
         text-align: center;
-        font-size: smaller;
-        padding: 20px;
+        font-size: large;
+        padding: 5px;
     }
 
     .navbar ul {
@@ -25,8 +27,7 @@
 
     .navbar li{
         display: inline;
-        padding: 20px;
-        background-color: goldenrod;
+        padding: 120px;
     }
 
     /*.navbar a {
@@ -38,31 +39,27 @@
         grid-area: heading;
         text-align: center;
         font-size: xx-large;
-        background-color: darkseagreen;
+        color: rgb(134, 134, 100);
     }
 
 
     .image_1{
         grid-area: image_1;
-        background-color: darkseagreen;
+        text-align: center;
        }
-
-
+       
 
     .definition{
         grid-area: definition;
          text-align: left;
-         background-color: darkseagreen;
     }
-
-
 
 
 
 
     .image_2{
         grid-area: image_2;
-        background-color: darkseagreen;
+        text-align: center;
     }
 
 
@@ -70,12 +67,13 @@
     .causes{
         grid-area: causes;
         text-align: left;
-        background-color: darkseagreen;
+
     }
 
     .image_3{
         grid-area: image_3;
-        background-color: darkseagreen;
+        background-color: beige;
+        text-align: center;
     }
 
 
@@ -83,7 +81,7 @@
     .effects{
         grid-area: effects;
         text-align: left;
-        background-color: darkseagreen;
+        background-color: beige;
     }
 
 
@@ -91,31 +89,26 @@
 
     .image_4{
         grid-area: image_4;
-        background-color: darkseagreen;
+        background-color: beige;
+        text-align: center;
     }
-
-
-
 
 
     .help{
         grid-area: help;
         text-align: left;
-        background-color: darkseagreen;
+        background-color: beige;
     }
 
 
     .footer{
         grid-area: footer;
-        background-color: rgb(7, 97, 41);
+        background-color: lightyellow;
         text-align: center;
         font-size: smaller;
     }
 
     img{
-        width: 95%;
+        width: 80%;
         height: auto;
     }
-    
-    
-
