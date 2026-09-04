@@ -92,6 +92,9 @@
         background-color: beige;
         text-align: center;
     }
+    iframe{
+        border-radius: 15px;
+    }
 
 
     .help{
@@ -103,7 +106,7 @@
 
     .footer{
         grid-area: footer;
-        background-color: lightyellow;
+        background-color:  rgb(134, 134, 100);;
         text-align: center;
         font-size: smaller;
     }
@@ -111,4 +114,14 @@
     img{
         width: 80%;
         height: auto;
+        border-radius: 70px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+    P{
+        padding: 15px;
+        font-size: 20.5px;
     }
